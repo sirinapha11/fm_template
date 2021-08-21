@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hmj-b+&bi5icn7wy@@_#d2o2kn8a@)h=3fxb0apg$x#+k!j&se
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','sirinapha-fmtemplate.herokuapp.com' ]
+ALLOWED_HOSTS = ['127.0.0.1', 'sirinapha-fmtemplate.herokuapp.com']
 
 
 # Application definition
