@@ -15,7 +15,7 @@
 
     <!-- Custom fonts for this template-->
     <link
-      href=" {% static 'vendor/fontawesome-free/css/all.min.css' %} "
+      href="{% static 'vendor/fontawesome-free/css/all.min.css' %}"
       rel="stylesheet"
       type="text/css"
     />
@@ -25,7 +25,7 @@
     />
 
     <!-- Custom styles for this template-->
-    <link href=" {% static 'css/sb-admin-2.min.css' %} " rel="stylesheet" />
+    <link href="{% static 'css/sb-admin-2.min.css' %}" rel="stylesheet" />
   </head>
 
   <body id="page-top">
@@ -52,21 +52,25 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href=" {% url 'index' %} ">
+          <a class="nav-link" href="{% url 'index' %}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Home</span></a
           >
         </li>
+
+        <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href=" {% url 'about' %} ">
+          <a class="nav-link" href="{% url 'about' %}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>About</span></a
+            <span>about</span></a
           >
         </li>
+
+        <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href=" {% url 'contact' %} ">
+          <a class="nav-link" href="{% url 'contact' %}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Contact</span></a
+            <span>contact</span></a
           >
         </li>
 
@@ -202,7 +206,7 @@
         <div class="sidebar-card d-none d-lg-flex">
           <img
             class="sidebar-card-illustration mb-2"
-            src=" {% static 'img/undraw_rocket.svg' %} "
+            src="{% static 'img/undraw_rocket.svg' %}"
             alt="..."
           />
           <p class="text-center mb-2">
@@ -411,7 +415,7 @@
                     <div class="dropdown-list-image mr-3">
                       <img
                         class="rounded-circle"
-                        src=" {% static 'img/undraw_profile_1.svg' %} "
+                        src="{% static 'img/undraw_profile_1.svg' %}"
                         alt="..."
                       />
                       <div class="status-indicator bg-success"></div>
@@ -428,7 +432,7 @@
                     <div class="dropdown-list-image mr-3">
                       <img
                         class="rounded-circle"
-                        src=" {% static 'img/undraw_profile_2.svg' %} "
+                        src="{% static 'img/undraw_profile_2.svg' %}"
                         alt="..."
                       />
                       <div class="status-indicator"></div>
@@ -445,7 +449,7 @@
                     <div class="dropdown-list-image mr-3">
                       <img
                         class="rounded-circle"
-                        src=" {% static 'img/undraw_profile_3.svg' %} "
+                        src="{% static 'img/undraw_profile_3.svg' %}"
                         alt="..."
                       />
                       <div class="status-indicator bg-warning"></div>
@@ -504,7 +508,7 @@
                   >
                   <img
                     class="img-profile rounded-circle"
-                    src=" {% static 'img/undraw_profile.svg' %} "
+                    src="{% static 'img/undraw_profile.svg' %}"
                   />
                 </a>
                 <!-- Dropdown - User Information -->
@@ -553,7 +557,7 @@
               class="d-sm-flex align-items-center justify-content-between mb-4"
             >
               <h1 class="h3 mb-0 text-gray-800">
-                {% block title %} {% endblock %}
+                {% block title %}{% endblock %}
               </h1>
               <a
                 href="#"
@@ -632,20 +636,20 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src=" {% static 'vendor/jquery/jquery.min.js' %} "></script>
-    <script src=" {% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %} "></script>
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src=" {% static 'vendor/jquery-easing/jquery.easing.min.js' %} "></script>
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src=" {% static 'js/sb-admin-2.min.js' %} "></script>
+    <script src="{% static 'js/sb-admin-2.min.js' %}"></script>
 
     <!-- Page level plugins -->
-    <script src=" {% static 'vendor/chart.js/Chart.min.js' %} "></script>
+    <script src="{% static 'vendor/chart.js/Chart.min.js' %}"></script>
 
     <!-- Page level custom scripts -->
-    <script src=" {% static 'js/demo/chart-area-demo.js' %} "></script>
-    <script src=" {% static 'js/demo/chart-pie-demo.js' %} "></script>
+    <script src="{% static 'js/demo/chart-area-demo.js' %}"></script>
+    <script src="{% static 'js/demo/chart-pie-demo.js' %}"></script>
   </body>
 </html>
